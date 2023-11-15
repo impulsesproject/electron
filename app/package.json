@@ -1,0 +1,30 @@
+{
+  "name": "electron-node-ts-impulse",
+  "description": "Impulse (Docker dev container configuration and scaffolding) for an Electron.js application built on Node.js with TypeScript support",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "lint": "eslint .",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impulsesproject/electron-node-ts.git"
+  },
+  "keywords": [],
+  "author": "Baalateja Kataru (bkataru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/impulsesproject/electron-node-ts/issues"
+  },
+  "homepage": "https://github.com/impulsesproject/electron-node-ts",
+  "devDependencies": {
+    "electron": "^27.1.0",
+    "eslint": "^8.53.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0"
+  }
+}

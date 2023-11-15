@@ -1,0 +1,51 @@
+{
+  "workbench.colorTheme": "Night Owl Black",
+  "workbench.iconTheme": "vscode-icons",
+
+  "explorer.autoReveal": true,
+  "editor.wordWrap": "on",
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+
+  "eslint.validate": ["javascript"],
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+
+  "todo-tree.general.statusBar": "total",
+
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

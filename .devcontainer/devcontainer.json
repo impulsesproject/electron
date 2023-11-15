@@ -1,0 +1,10 @@
+{
+  "name": "electron-node-ts-environment",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "vscode",
+  "runServices": ["vscode"],
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "/workspace/.devcontainer/postCreate.sh",
+  "overrideCommand": true
+}
