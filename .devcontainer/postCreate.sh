@@ -1,7 +1,7 @@
 cd /workspace/app
 
-if [ -d /workspace/app/node_modules/ ]; then 
-  rm -rf /workspace/app/node_modules/; 
+if [ -d /workspace/app/node_modules/ ]; then
+  rm -rf /workspace/app/node_modules/;
 fi
 
 yarn add -D eslint prettier
